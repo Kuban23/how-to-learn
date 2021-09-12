@@ -25,6 +25,11 @@
   position: relative;
 }
 
+.logo {
+  position: relative;
+  /* border: 1px solid red; */
+ }
+
 .logo_place_header {
   background-image: url('../images/logo_place_header.svg');
   width: 183px;
@@ -32,13 +37,8 @@
   background-repeat: no-repeat;
   left: 64px;
   top: 30px;
-  position: relative;
+  position: absolute;
   /* border: 1px solid red; */
-}
-
-.logo_place_header {
- position: absolute;
- /* border: 1px solid red; */
 }
 
 .header__title {
@@ -159,7 +159,6 @@ font-weight: 700;
 .section-title {
   width: 60%;
   text-align: center;
-  margin:0;
   padding:0;
   margin: auto;
   line-height: 1.15;
@@ -171,7 +170,6 @@ font-weight: 700;
 .section-subtitle {
   width: 60%;
   text-align: center;
-  margin:0;
   padding:0;
   margin: auto;
   /* border: 1px solid red; */
