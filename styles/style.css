@@ -7,7 +7,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  border: 1px solid silver;
 }
 
 
@@ -43,7 +42,8 @@
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
+  padding-left: 64px;
+  margin: 0;
   display: flex;
   align-items: center;
   line-height: 96px;
@@ -122,13 +122,8 @@ padding: 0;
   min-width: 784px;
 }
 
-.two-columns__main-text :first-child {
-  margin-bottom: 30px;
-}
-
 .two-columns__main-text :last-child {
-  margin-bottom: 0px;
-  margin-top: 30px;
+  padding-bottom: 0px;
 }
 
 .two-columns__paragraph {
@@ -136,7 +131,7 @@ line-height: 34px;
 font-size: 24px;
 font-weight: 400;
 margin: 0;
-padding: 0;
+padding-bottom: 30px;
 }
 
 .two-columns__span-accent {
@@ -152,14 +147,10 @@ font-weight: 700;
   padding-top: 100px;
 }
 
-.digits :first-child {
-  margin-bottom: 20px;
-}
-
 .section-title {
   width: 60%;
   text-align: center;
-  padding:0;
+  padding-bottom:20px;
   margin: auto;
   line-height: 1.15;
   font-size: 60px;
@@ -172,10 +163,10 @@ font-weight: 700;
   text-align: center;
   padding:0;
   margin: auto;
-  /* border: 1px solid red; */
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
+  /* border: 1px solid red; */
 }
 
 .table {
@@ -194,16 +185,11 @@ font-weight: 700;
   /* border: 1px solid red; */
 }
 
-.table__cell :last-child {
-  margin-top: 20px;
-}
-
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
-  margin:0;
-  padding:0;
+  margin: 0;
   /* border: 1px solid red; */
 }
 
@@ -211,8 +197,8 @@ font-weight: 700;
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding-top: 20px;
   /* border: 1px solid red; */
 }
 
@@ -243,10 +229,12 @@ font-weight: 700;
 
 .feynman__subtitle {
   text-align: center;
-  margin-top: 70px;
+  padding-top: 70px;
   line-height: 51px;
   font-size: 36px;
   font-weight: 400;
+  margin: 0;
+
   /* border: 1px solid red; */
 }
 
@@ -319,19 +307,19 @@ font-weight: 700;
   background-color: #1f1f1f;
   padding-top: 60px;
   padding-bottom: 40px;
-  /* border: 1px solid red; */
+  min-height: 350px;
+  box-sizing: border-box;
+    /* border: 1px solid red; */
 }
 
 .footer__columns {
   width: 90%;
-  height: 200px;
+  height: 250px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   /* border: 1px solid red; */
 }
-
-
 
 .footer__column_content_copyright {
 display: flex;
