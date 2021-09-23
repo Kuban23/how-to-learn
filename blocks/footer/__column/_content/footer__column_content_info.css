@@ -1,0 +1,8 @@
+.footer__column_content_info {
+	padding: 0;
+ }
+
+ .footer__column_content_info :last-child {
+	margin-bottom: 16px;
+ }
+ 
