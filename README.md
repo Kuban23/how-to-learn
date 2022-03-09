@@ -17,8 +17,5 @@
 * Подключение видео с помощью iframe
 ---
 ### Ссылка на проект
-https://kuban23.github.io/how-to-learn/
-
-
-
+[Ссылка на проект](https://kuban23.github.io/how-to-learn/)
 
